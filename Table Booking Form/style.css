@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+    background-image: url('hotel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card
+{
+    margin-top: 5%;
+    margin-left: 50%;
+     
+    
+    width: 33%;
+    height: auto;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
+    background: rgb(132,115,13);
+background: linear-gradient(346deg, rgba(132,115,13,1) 0%, rgba(25, 1, 72, 0.44) 0%, rgba(1, 1, 1, 0.711) 100%);
+    backdrop-filter: blur(10px);
+}
+
+ 
+  
+  h2 {
+    color: white;
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+     
+  }
+  
+  label {
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+    display: block;
+    margin-top: 1px;
+    font-size: 20px;
+    margin-left: -10%;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 120%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2px;
+    margin-left: -10%;
+    margin-bottom: 15px;
+    justify-content: center;
+    background-color: rgba(254, 255, 255, 0.942);
+  }
+  
+  input[type="submit"] {
+    background-color: #f9bb1f;
+     color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #b97ace;
+     
+  }
+  
